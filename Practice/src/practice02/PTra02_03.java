@@ -6,7 +6,7 @@ package practice02;
  * Copyright(c) Rhizome Inc. All Rights Reserved.
  */
 
-public class PTra02_03 {
+public class v {
 	public static void main(String[] args) {
 		int num1 = 50;
 		System.out.println(num1);
