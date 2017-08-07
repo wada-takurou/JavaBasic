@@ -12,7 +12,7 @@ public class PTra02_04 {
 		System.out.println(d_num);
 
 		// ★ プログラムを修正して、d_numに50が入るようにしてください
-		d_num + d_num;
+	   d_num=d_num + d_num;
 
 		// ★ 以下のプログラムで50が出力されるようにしてください
 		System.out.println(d_num);	// ※※ この行は修正しないでください
