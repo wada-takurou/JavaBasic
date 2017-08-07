@@ -1,4 +1,5 @@
 package practice03;
+
 /*
  * PTra03_07.java
  *   作成	LIKEIT	2017
@@ -30,6 +31,13 @@ public class PTra03_07 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+		if(1>=num&&5<=num) {
+			System.out.println(num);
+		}
+		else {
+			System.out.println("選択したのは、１〜５以外です");
+			
+		}
 
 
 	}
