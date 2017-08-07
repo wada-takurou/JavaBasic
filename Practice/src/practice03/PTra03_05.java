@@ -36,18 +36,16 @@ public class PTra03_05 {
 if(num<=75) {
 	System.out.println("雨が降る確率が高いです");
 }
-if(num>=30) {
+else if(num>=30) {
 	System.out.println("雨が降るかもしれないです");
 }
-if(num<30) {
+else if(num<30) {
 	System.out.println("雨はまず降らないでしょう");
 }
-if(num<100) {
+else if(num<100&&num<0) {
 	System.out.println("不正な値が入力されました");
 }
-if(num>0) {
-	System.out.println("不正な値が入力されました");
-}
+
 		
 	}
 }
