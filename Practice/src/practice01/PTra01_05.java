@@ -16,7 +16,7 @@ char c;
 c='R';
 
 		// ★ 変数 c の中身を出力してください
- System.out.println(c);
+System.out.println(c);
 
 	}
 }

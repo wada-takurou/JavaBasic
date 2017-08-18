@@ -8,7 +8,7 @@ package practice03;
 
 public class PTra03_06 {
 	public static void main(String[] args) {
-		int limitNumber = 100;
+		int limitNumber = 20;
 
 		// ランダムで数字を生成するプログラムです。
 		// 下記の命令を実行すると変数randomに、0以上、変数limitNumber未満の数字がランダムで代入されます
