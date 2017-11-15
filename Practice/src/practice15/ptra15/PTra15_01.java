@@ -14,9 +14,10 @@ public class PTra15_01 {
 
 	public static void main(String[] args) {
 
-		JavaCourse jCourse = new JavaCourse();
-		DBCourse dbCourse = new DBCourse();
-
+		Course[]courseList = {
+		 new JavaCourse(),
+		 new DBCourse()
+		};
 		// ★ Course[	]の配列に jcourse と dbCourse のインスタンスを代入してください。
 
 		for (Course course : courseList) {
