@@ -18,6 +18,7 @@ public class PTra14_02 {
 	 * 		SQL基礎
 	 * 		正規化
 	 * 		SQL応用
+	 * 完了
 	 */
 
 }
