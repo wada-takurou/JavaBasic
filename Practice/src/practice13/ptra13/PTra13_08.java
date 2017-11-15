@@ -10,7 +10,7 @@ public class PTra13_08 {
 
 	/*
 	 * ★ common.Personクラスを継承して、common.Employeeクラスを作成してください
-	 *
+	 *a
 	 * フィールド
 	 * 		departmentNm（部署名）		:	String
 	 * 		departmentCnt（部署人数）	:	int
