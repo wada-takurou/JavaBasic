@@ -10,7 +10,7 @@ public class PTra13_05 {
 
 	/*
 	 * ★ common.Itemクラスを作成してください
-	 *
+	 *ああ
 	 * フィールド
 	 * 		name	:	String
 	 * 		additionalDamage	:	int
