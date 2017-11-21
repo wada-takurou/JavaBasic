@@ -6,6 +6,8 @@
  */
 package practice17.ptra17;
 
+import java.io.IOException;
+
 import practice17.common.ThrowExceptionUtil;
 
 public class PTra17_02 {
@@ -18,6 +20,7 @@ public class PTra17_02 {
 	}
 
 	public static void dispInput() {
+		java.util.Scanner scanner = new java.util.Scanner(System.in);
 
 		System.out.println("文字を入力してください");
 
@@ -25,7 +28,13 @@ public class PTra17_02 {
 		 * 以下の処理はコンパイルエラーになります。
 		 * ★ 適切な修正を行い、コンパイルエラーをなくしてください
 		 */
-		String line = ThrowExceptionUtil.inputValue();
+		String line = scanner.nextLine();;
+		try {
+			line = ThrowExceptionUtil.inputValue();
+		} catch (IOException e) {
+			// TODO 自動生成された catch ブロック
+			e.printStackTrace();
+		}
 
 		System.out.println(line);
 	}
