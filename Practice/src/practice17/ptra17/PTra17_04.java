@@ -9,7 +9,6 @@ package practice17.ptra17;
 public class PTra17_04 {
 	public static void main(String[] args) {
 		String str = "スッキリわかるJava入門";
-
 		char data[] = str.toCharArray();
 
         // 配列数を取得
